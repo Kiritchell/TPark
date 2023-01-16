@@ -10,6 +10,10 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200;300;400;500;600;700&display=swap"
@@ -79,12 +83,82 @@
     </nav>
     <div class="body-content">
       <div>
-        <h1 class="heroheader normalHeader">Contact Us</h1>
-        <h4 class="herobody normalBody">
-          We'd love for you to reach out to us!
-        </h4>
+       
       </div>
-
+      <div class="container">
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="title">Reach out!</h3>
+            <p class="text">
+              We'd love for you to reach out to us!
+            </p>
+  
+            <div class="info">
+              <div class="information">
+  
+                <img alt="" />
+                <p>Based out of Amarillo, Texas.</p>
+              </div>
+              <div class="information">
+               
+                <p>transformationpark.com</p>
+              </div>
+              <div class="information">
+              
+                <p>Serve with love.</p>
+              </div>
+            </div>
+  
+            <div class="social-media">
+              <div class="social-icons">
+           
+              </div>
+            </div>
+          </div>
+  
+          <div class="contact-form">
+            <!--formsubmit.co/ long string is the randomized forward email given from formsubmit-->
+            <form action="https://formsubmit.co/mtfirelion@gmail.com" method="POST" />
+              <h3 class="title">Contact</h3>
+              <div class="input-container">
+                <input placeholder="Name" type="text" name="Name" class="input" />
+                <label for=""></label>
+                <span>Name</span>
+              </div>
+              <div class="input-container">
+                <input
+                  type="email"
+                  placeholder="Email - No spam, ever"
+                  name="Email"
+                  class="input"
+                />
+                <label for=""></label>
+                <span>Email</span>
+              </div>
+              <div class="input-container">
+                <input
+                  placeholder="Phone"
+                  type="tel"
+                  name="Phone"
+                  class="input"
+                />
+                <label for=""></label>
+                <span>Phone</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea
+                  placeholder="Leave a message"
+                  name="Message"
+                  class="input"
+                ></textarea>
+                <label for=""></label>
+                <span>Message</span>
+              </div>
+              <input type="submit" value="Send" class="subbtn" />
+            </form>
+          </div>
+        </div>
+      </div>
   </body>
   <script src="script.js"></script>
   <script
