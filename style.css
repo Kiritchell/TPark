@@ -355,7 +355,7 @@ width: 50vh;}
 
     #give-btn{height:fit-content;
     width:auto;
-    left:40%;
+    left:36%;
     right:auto;
     font-size:1em;}
     .carousel-item{
@@ -363,7 +363,11 @@ width: 50vh;}
         width: auto;
         background-position: top top;
     top:0%;
-}}
+}
+
+.about-images{height:auto;
+width:20vh;}
+}
 
 @media (max-width: 500px) {
     .container {
