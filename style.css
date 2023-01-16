@@ -1,7 +1,8 @@
-*{transition: 500ms;}
+*{transition: 300ms;}
 
 html {
     font-size: 100%;
+    
   }
 
 body{
@@ -17,7 +18,7 @@ body{
 }
 
 a.hover{color:black;}
-a.active{color:darkslategray;}
+a.active{color:red;}
 
 #logo{width:3em;
     height:auto;
@@ -27,7 +28,7 @@ a.active{color:darkslategray;}
 right:1em;
 height:fit-content;
 width:auto;
-font-size:1.2em;
+font-size:1.1em;
 color:white;
 background-color: #127aab;
 opacity:100;
@@ -45,7 +46,7 @@ border: none;
     opacity: 100%;
     position:absolute;
     margin:0;
-    top:320px;
+    top:220px;
     left:50%;
     transform: translate(-50%, -50%);
     white-space: nowrap;
@@ -61,7 +62,7 @@ border: none;
     display: flex;
     position:absolute;
     margin:0;
-    top:420px;
+    top:320px;
     left:50%;
     transform: translate(-50%, -50%);
     margin-bottom:20px;
@@ -72,12 +73,12 @@ border: none;
     font-size:2em;
     text-shadow: 1px 1px 10px white;
     font-family: "Amaranth";
-    font-size:4em;
+    font-size:3em;
     color:black;
     opacity: 100%;
     position: absolute;
     margin:0;
-    top:70px;
+    top:80px;
     left:50%;
     transform: translate(-50%, -50%);}
 
@@ -92,7 +93,7 @@ border: none;
     display: flex;
     position: absolute;
     margin:0;
-    top: 150px;
+    top: 120px;
     margin-bottom: 100px;
     left:50%;
     transform: translate(-50%, -50%);
@@ -102,21 +103,25 @@ border: none;
 
 .carousel-item{opacity:30%;
     z-index: -100;
+   height: auto;
+   width: 120vw;
+   background-position: top top;
 }
 
 #topSpacer{
 top:0;
-margin-bottom:100px;}
+margin-bottom:40px;}
 
 #aboutdiv{
     font-family:"Oswald",sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight:300;
+    line-height: 1.5em;
     overflow:auto !important;
     padding:10px;
     margin-left:5%;
     margin-right:5%;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom:20px;
    text-align: center;
    justify-content: center;
@@ -127,6 +132,9 @@ margin-bottom:100px;}
     display: block;
     width: 90%;
 }
+
+.about-images{height:auto;
+width: 50vh;}
 
 @media screen and (min-width: 300px) and (max-width:760px){
 
@@ -155,7 +163,4 @@ margin-bottom:100px;}
     width:auto;
     height:100%;
     top:0%;
-}
-
-#navbarNavDropdown{;}
-}
+}}
