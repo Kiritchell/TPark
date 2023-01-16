@@ -335,7 +335,10 @@ width: 50vh;}
         padding:10px;
         text-align: center;
     z-index:110;
-    background-color: rgba(0, 0, 0, 0.7);}
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left:-20px;
+    margin-right:-20px;
+}
 
     .body-content{margin-left:0;}
     .homeheader{font-size:2em;
@@ -371,9 +374,9 @@ width:20vh;}
 
 @media (max-width: 500px) {
     .container {
-      padding: 1.5rem;
+      padding: .2rem;
       margin-bottom:10px;
-      margin-top: 10px;
+      margin-top: 30px;
     }
   
     .contact-info:before {
@@ -381,14 +384,18 @@ width:20vh;}
     }
     form,
     .contact-info {
-      padding: 1.7rem 1.6rem;
-      line-height: 1em;
+      padding: 1rem 1.6rem;
+      font-size:1em;
     }
   
     .text,
     .information,
     .social-media p {
-      font-size: 0.8rem;
+      margin-top:30px;
+      font-size: .7rem;
+      line-height: 1em;
+      text-align: left;
+      letter-spacing: .05em;
     }
   
     .title {
@@ -396,9 +403,10 @@ width:20vh;}
     }
 
     .input {
-      padding: 0.45rem 1.2rem;
-      font: size 0.6em;
-    }
+        padding: 0.2rem .3rem;
+        font-size: 0.7em;
+        letter-spacing: .001em;
+      }
   
     .subbtn {
       padding: 0.45rem 1.2rem;
