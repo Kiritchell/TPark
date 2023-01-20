@@ -103,9 +103,8 @@ border: none;
 
 .carousel-item{opacity:30%;
   z-index: -100;
-  height: fit-content;
-  width: auto;
-  bottom:0;
+  width:150%;
+  /*height: fit-content;*/
 }
 
 #topSpacer{
@@ -292,7 +291,7 @@ max-width: 80vh;}
   background-color:#033212;
   opacity:1;
   width:100%;
-  height:100px;
+  height:fit-content;
   color:white;
   font-family:"Oswald",sans-serif;
   position:fixed;
@@ -300,9 +299,11 @@ max-width: 80vh;}
   display:block;
   text-align: center;
   padding:20px;
+  overflow:scroll;
 }
 
-#home-info-bottom-box-text{font-size:3em;}
+#home-info-bottom-box-text{font-size:3em;
+}
 
 @media screen and (min-width: 300px) and (max-width:760px){
 
@@ -325,6 +326,9 @@ max-width: 80vh;}
   
 .navbar-toggler, .navbar-brand{
   margin-top:40px;}
+
+.carousel-item{height:100vh;
+   width:250%;}
 
 #aboutdiv{margin-top:50px;}
 
@@ -354,11 +358,7 @@ max-width: 80vh;}
 
 a:hover{color: #88a83e !important;}
 
-.carousel-item{
-  height: 100%;
-  width: auto;
-        background-position: top top;
-      top:0%;}
+
 
 .about-images{height:auto;
 width:20vh;}
@@ -373,18 +373,21 @@ width:20vh;}
 
   #home-info-bottom-box-text{font-size:2em;}
 
+  
 }
 
 @media only screen and (max-width: 600px) {
   .homeheader{font-size:2.5em;}
 
   .homebody{font-size:1.7em;
-  margin-top:2em;}
+  margin-top:2em;
+  width:80%;}
 
-    .container {
-      padding: .2rem;
-      margin-bottom:10px;
+  .container {
+      padding: 0.1rem;
+      margin-bottom: 10px;
       margin-top: 50px;
+      width:100%;
     }
   a:hover{color: #88a83e !important;}
     .contact-info:before {
@@ -419,7 +422,13 @@ width:20vh;}
       padding: 0.45rem 1.2rem;
       line-height: .8rem;
     }
+    #home-info-bottom-box{padding:10px;
+  }
 
-    #home-info-bottom-box-text{font-size:1.5em;}
+    #home-info-bottom-box-text{font-size:1.5em;
+    }
+
+.carousel-item{height:100vh;
+width:250%;}
   
   }
