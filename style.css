@@ -101,6 +101,7 @@ border: none;
     display:block;
 }
 
+a{color:#88a83e;}
 .carousel-item{opacity:30%;
   z-index: -100;
   width:150%;
@@ -113,9 +114,9 @@ margin-bottom:40px;}
 
 #aboutdiv{
     font-family:"Oswald",sans-serif;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight:300;
-    line-height: 1.5em;
+    line-height: 1.3em;
     overflow:auto !important;
     padding:10px;
     margin-left:5%;
@@ -302,7 +303,7 @@ max-width: 80vh;}
   overflow:scroll;
 }
 
-#home-info-bottom-box-text{font-size:3em;
+#home-info-bottom-box-text{font-size:2.5em;
 }
 
 @media screen and (min-width: 300px) and (max-width:760px){
@@ -333,7 +334,7 @@ max-width: 80vh;}
 #aboutdiv{margin-top:50px;}
 
 .about-images:hover{height:auto;
-  width:30vh;
+  width:40vh;
   max-width: 80vh;}
 
 .body-content{margin-left:0;}
