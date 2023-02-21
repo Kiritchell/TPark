@@ -308,13 +308,12 @@ max-width: 80vh;}
 
 @media screen and (min-width: 300px) and (max-width:760px){
 
-  #logo{margin-bottom:10px;}
+  #logo{margin-top: 5px;}
 
 .nav-link{color:white;
     padding:10px;
     text-align: center;
     z-index:110;
-    background-color: rgba(0, 0, 0, 0.7);
     margin-left:-20px;
     margin-right:-20px;
 }
@@ -328,12 +327,23 @@ max-width: 80vh;}
   border-radius:0;}
   
 .navbar-toggler, .navbar-brand{
-  margin-top:40px;}
+  margin-top:30px;
+  
+margin-bottom:-70px;}
+
+#navbarNavDropdown{background: rgba(0, 0, 0, .9);
+  margin-left:-30px;
+  margin-right:-30px;
+  height:1000px;
+  overflow:hidden;
+}
+
+#topSpacer{margin-bottom:50px;}
 
 .carousel-item{height:100vh;
    width:250%;}
 
-#aboutdiv{margin-top:40px;}
+#aboutdiv{margin-top:20px;}
 
 .about-images:hover{height:auto;
   width:40vh;
@@ -378,11 +388,23 @@ width:20vh;}
 }
 
 @media only screen and (max-width: 600px) {
-  #logo{margin-bottom:40px;}
+
+  .navbar-toggler, .navbar-brand{
+   
+    margin-top:30px;
+  margin-bottom:-70px;}
+
+  #navbarNavDropdown{
+  margin-left:-30px;
+  margin-right:-30px;
+  height:1000px;
+  overflow:hidden;
+}
 
   .homeheader{font-size:2.5em;}
 
-  #aboutdiv{margin-top:50px;}
+  #aboutdiv{margin-top:20px;}
+  
   .homebody{font-size:1.5em;
   margin-top:2em;
   width:80%;}
