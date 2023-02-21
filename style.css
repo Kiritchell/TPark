@@ -66,11 +66,11 @@ border: none;
     left:50%;
     transform: translate(-50%, -50%);
     display:flex;
-
+    white-space: nowrap;
 }
 
 .normalHeader{
-    font-size:2em;
+    font-size:3em;
     text-shadow: 1px 1px 10px white;
     font-family: "Amaranth";
     font-size:3em;
@@ -102,6 +102,28 @@ border: none;
 }
 
 a{color:#88a83e;}
+
+#learn-more-button{
+  border-radius:20px;
+  display:block;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  border:none;
+  color:white;
+  font-family:"Amaranth";
+  background-color: #88a83e; 
+  font-size:1.7em;
+  letter-spacing:.03em;
+  padding:10px;
+  margin-top:10px;
+}
+
+#learn-more-button-text{color:white;
+text-decoration: none;}
+
 .carousel-item{opacity:30%;
   z-index: -100;
   width:150%;
@@ -112,7 +134,7 @@ a{color:#88a83e;}
 top:0;
 margin-bottom:40px;}
 
-#aboutdiv{
+#aboutdiv, #updatediv{
     font-family:"Oswald",sans-serif;
     font-size: 1.4em;
     font-weight:300;
@@ -125,20 +147,35 @@ margin-bottom:40px;}
     margin-bottom:20px;
     text-align: center;
     justify-content: center;
-    border: 2px solid rgba(0, 0, 0, 0.2);
-    border-radius:20px;
     color:black;
     height:fit-content;
     display: block;
     width: 90%;
 }
 
+#updatediv{border-color: rgba(0, 0, 0, .05);
+border-style:solid;
+border-radius:20px;
+}
+
+
+.abouttitle{font-family: "Amaranth";
+font-weight:700;}
+
+.board-row, .about-row {
+  display: flex;
+}
+
+.board-column, .about-column {
+  flex: 50%;
+}
+
 #bottomSpacer{margin-bottom:8em;}
 
-.about-images{height:auto;
+.about-images, .update-images{height:auto;
 width: 30vh;}
 
-.about-images:hover{height:auto;
+.about-images:hover, .update-images:hover{height:auto;
 width:60vh;
 max-width: 80vh;}
 
@@ -306,6 +343,22 @@ max-width: 80vh;}
 #home-info-bottom-box-text{font-size:2.5em;
 }
 
+
+@media screen and (max-width: 600px) {
+.board-column {
+  font-size: .8em;
+  line-height: 1.4em;
+}
+
+#learn-more-button{
+margin-top:20px;
+font-size:1em;
+}
+
+.homebody{   white-space:normal;}
+}
+
+
 @media screen and (min-width: 300px) and (max-width:760px){
 
   #logo{margin-top: 5px;}
@@ -328,7 +381,6 @@ max-width: 80vh;}
   
 .navbar-toggler, .navbar-brand{
   margin-top:30px;
-  
 margin-bottom:-70px;}
 
 #navbarNavDropdown{background: rgba(0, 0, 0, .9);
@@ -344,6 +396,9 @@ margin-bottom:-70px;}
    width:250%;}
 
 #aboutdiv{margin-top:20px;}
+
+.homebody{   white-space:normal;}
+
 
 .about-images:hover{height:auto;
   width:40vh;
@@ -382,16 +437,14 @@ width:20vh;}
 .input{  padding: .5rem .9rem;
   font-size:1em;}
 
-  #home-info-bottom-box-text{font-size:2em;}
+#home-info-bottom-box-text{font-size:2em;}  
 
-  
 }
 
 @media only screen and (max-width: 600px) {
 
   .navbar-toggler, .navbar-brand{
-   
-    margin-top:30px;
+  margin-top:30px;
   margin-bottom:-70px;}
 
   #navbarNavDropdown{
@@ -415,10 +468,12 @@ width:20vh;}
       margin-top: 50px;
       width:100%;
     }
+
   a:hover{color: #88a83e !important;}
     .contact-info:before {
       display: none;
     }
+
     form,
     .contact-info {
       padding: 1rem 1.6rem;
@@ -456,5 +511,4 @@ width:20vh;}
 
 .carousel-item{height:100vh;
 width:250%;}
-  
-  }
+}
