@@ -101,6 +101,9 @@ border: none;
     display:block;
 }
 
+.givingHeader{margin-top:100px !important;}
+.givingBody{margin-top:200px !important;
+width:90% !important;}
 
 a{color:#88a83e;}
 
@@ -171,11 +174,11 @@ border-radius:20px;
 .abouttitle{font-family: "Amaranth";
 font-weight:700;}
 
-.board-row, .about-row {
+.board-member-row, .about-row {
   display: flex;
 }
 
-.board-column, .about-column {
+.board-column, .board-member-column, .about-column {
   flex: 50%;
 }
 
@@ -378,7 +381,7 @@ font-weight:700;}
 }
 
 @media screen and (max-width: 600px) {
-.board-column {
+.board-member-row {
   font-size: .8em;
   line-height: 1.4em;
 }
@@ -562,5 +565,6 @@ margin-left:-20px;}
 .img-sm{width:30vh;}
 .img-md{width:45vh;}
 .img-lg{width:60vh;}
-
+ 
+  
 }
