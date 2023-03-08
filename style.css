@@ -1,3 +1,6 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
 *{transition: 300ms;}
 
 html {
@@ -9,8 +12,9 @@ body{
     margin:0;}
 
 .navbar{
-    font-size:1.4em;
-    font-family:"Amaranth";
+    font-size:1.2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     height:3em;
     z-index: 100;
     top:0;
@@ -34,13 +38,14 @@ background-color: #88a83e;
 opacity:100;
 z-index: 100;
 border: none;
+
 }
 
 .homeheader{  
-    font-size:2em;
     text-shadow: 1px 1px 10px white;
-    font-family: "Amaranth";
-    font-size:4em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    font-size:3em;
     text-align: center;
     color:black;
     opacity: 100%;
@@ -52,7 +57,7 @@ border: none;
     white-space: nowrap;
 }
 .homebody{
-    font-family:"Oswald",sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.75em;
     text-shadow: 1px 1px 3px white;
     font-weight:400;
@@ -72,8 +77,9 @@ border: none;
 .normalHeader{
     font-size:3em;
     text-shadow: 1px 1px 10px white;
-    font-family: "Amaranth";
-    font-size:3em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    font-size:2.5em;
     color:black;
     opacity: 100%;
     position: absolute;
@@ -83,7 +89,7 @@ border: none;
     transform: translate(-50%, -50%);}
 
 .normalBody{
-    font-family:"Oswald",sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
     font-size: 2em;
     text-shadow: 1px 1px 3px white;
     font-weight:200;
@@ -117,7 +123,8 @@ a{color:#88a83e;}
   text-decoration: none;
   border:none;
   color:white;
-  font-family:"Amaranth";
+  font-family: 'Montserrat', sans-serif;
+  font-weight:500;
   background-color: #88a83e; 
   font-size:1.7em;
   letter-spacing:.03em;
@@ -139,7 +146,7 @@ top:0;
 margin-bottom:40px;}
 
 #aboutdiv, #updatediv{
-    font-family:"Oswald",sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.4em;
     font-weight:300;
     line-height: 1.3em;
@@ -157,8 +164,8 @@ margin-bottom:40px;}
     width: 90%;
     background-color: rgba(136, 168, 62, .2);
     border-color: rgba(0, 0, 0, .05);
-border-style:solid;
-border-radius:20px;
+    border-style:solid;
+    border-radius:20px;
 }
 
 #updatediv{margin-top: 15px;
@@ -171,8 +178,8 @@ border-radius:20px;
 .img-md{width:50vh;}
 .img-lg{width:70vh;}
 
-.abouttitle{font-family: "Amaranth";
-font-weight:700;}
+.abouttitle{font-family: 'Montserrat', sans-serif;
+font-weight:500;}
 
 .board-member-row, .about-row {
   display: flex;
@@ -212,9 +219,9 @@ font-weight:700;}
   .contact-title {
     font-size:2rem;
     color: #fff;
-    font-family: 'Amaranth', serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1;
-    letter-spacing:.1em;
+    letter-spacing:2px;
     margin-bottom: 0.7rem;
   }
   
@@ -266,7 +273,7 @@ font-weight:700;}
   }
   
   .subbtn {
-    font-family: 'Amaranth', serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 0.6rem 1.3rem;
     background-color: #fff;
     border: 2px solid #fafafa;
@@ -338,7 +345,7 @@ font-weight:700;}
   width:100%;
   height:fit-content;
   color:white;
-  font-family:"Oswald",sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   position:fixed;
   bottom:0;
   display:block;
@@ -431,13 +438,14 @@ margin-bottom:-70px;}
   overflow:hidden;
 }
 
-#topSpacer{margin-bottom:50px;}
+#topSpacer{margin-bottom:75px;}
 
 .carousel-item{height:100vh;
    width:200%;
    margin-left:-40px;}
 
-#aboutdiv{margin-top:20px;}
+#aboutdiv{margin-top:20px;
+top:100px;}
 
 .homebody{  white-space:normal;}
 
@@ -448,7 +456,7 @@ margin-bottom:-70px;}
 
 .body-content{margin-left:0;}
 
-.homeheader{font-size:2em;
+.homeheader{
         padding:0;
         margin:0;
         top:200px;}
@@ -494,11 +502,9 @@ width:20vh;}
   overflow:hidden;
 }
 
-  .homeheader{font-size:2.5em;}
-
-  #aboutdiv{margin-top:20px;}
+.homeheader{font-size:2em}
   
-  .homebody{font-size:1.5em;
+  .homebody{font-size:1.2em;
   margin-top:2em;
   left:40%;
   margin-left:10%;
