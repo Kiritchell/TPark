@@ -355,7 +355,17 @@ font-weight:500;}
 }
 
 #home-info-bottom-box-text{font-size:2.5em;
+  width:50px;
 }
+
+#centered-form{display:flex;
+justify-content: center;
+ margin:10px;
+}
+
+.giving-instructions{ font-size:1em;
+  font-family: 'Montserrat', sans-serif;
+text-align: center;}
 
 @media screen and (max-width: 1300px) {
   .carousel-item{
