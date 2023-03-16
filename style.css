@@ -44,7 +44,8 @@ border: none;
 .homeheader{  
     text-shadow: 1px 1px 10px white;
     font-family: 'Montserrat', sans-serif;
-    font-weight:500;
+    font-weight:700;
+    text-shadow:1px 1px 10px white;
     font-size:3em;
     text-align: center;
     color:black;
