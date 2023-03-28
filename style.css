@@ -421,9 +421,10 @@ text-align: center;}
 @media screen and (max-width: 750px) {
 .carousel-item{
 width:200%;}
-
-
-
+.navbar-nav{padding:-10px;
+  margin-left:-10px;
+font-size:1em;
+}
 
 @media screen and (max-width: 600px) {
 .board-member-row {
