@@ -94,6 +94,8 @@ font-weight: 600;
 z-index: 10;
 }
 .nav-item{padding:0px 10px;}
+
+a{text-decoration: underline;}
 a.hover{color:black;}
 a.active{color:#88a83e;}
 
@@ -141,10 +143,10 @@ color:black;
 opacity: 100%;
 display: flex;
 padding:-20px;
-margin-top:40px;
 text-shadow:2px 2px 1px #88a83e;
-
+margin-top:30px;
 }
+
 .flex-center{
 display:flex;
 justify-content: center;
@@ -174,12 +176,14 @@ display:block;
 
 .givingBody{
 font-family: 'Montserrat', sans-serif;
-font-size: 1.5em;
-font-weight:200;
+font-size: 1.3em;
+font-weight:400;
 color:black;
+margin:10px 80px;
+
 }
 
-.givingHeader{margin-top:100px !important;}
+
 
 .giving-buttons{
 flex-direction: column;
@@ -464,6 +468,9 @@ text-align: center;}
 .carousel-item{
 width:200%;}
 
+.givingBody{
+  font-size: 1em;
+  margin:10px 20px;}
 
 .navbar-nav{padding:-10px;
 margin-left:-10px;
