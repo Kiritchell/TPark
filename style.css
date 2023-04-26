@@ -489,6 +489,23 @@ width:10%;
 
 @media only screen and (max-width: 700px) {
 
+  .navbar-nav{
+    margin:inherit -30px;
+font-size:.8em;
+padding:-50px;
+  }
+  .nav-item{
+    padding:0px;
+    margin:5px;
+  }
+  .nav-link{
+    padding:-50px;
+    margin:inherit -40px;
+  }
+  #logo{
+    height:40px;
+    width:auto;
+  }
 .homeheader{font-size:2em;
 margin-top:50px;}
 
@@ -595,5 +612,4 @@ filter: brightness(80%);}
 .img-md{width:45vh;}
 .img-lg{width:60vh;}
 }
-
 
