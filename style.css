@@ -234,6 +234,11 @@ border-radius:20px;
 margin-bottom:3vh;
 }
 
+.hover-enlarge:hover{
+  width:100%;
+  height:auto;
+  }
+
 .img-sm{width:40vh;}
 .img-md{width:50vh;}
 .img-lg{width:70vh;}
